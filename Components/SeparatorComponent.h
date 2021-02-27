@@ -1,5 +1,4 @@
 ﻿#pragma once
-
 #include "../Base/GuiComponent.h"
 
 namespace gui_component
