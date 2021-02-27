@@ -1,6 +1,6 @@
 ﻿#include "pch.h"
-#include "GrayedOutComponent.h"
 #include "IMGUI/imgui_internal.h"
+#include "GrayedOutComponent.h"
 
 gui_component::GrayedOutComponent::GrayedOutComponent(std::function<bool()> enable_condition): enable_condition_(
 	std::move(enable_condition))

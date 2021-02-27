@@ -1,6 +1,6 @@
 ﻿#pragma once
-#include "../Base/GuiComponent.h"
 #include "../Base/CVarComponentBase.h"
+#include "../Base/GuiComponent.h"
 
 namespace gui_component
 {

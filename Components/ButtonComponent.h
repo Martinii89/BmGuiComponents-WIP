@@ -1,6 +1,6 @@
 ﻿#pragma once
-#include "GuiComponents/Base/GuiComponent.h"
-#include "GuiComponents/Base/SafeExecutorBase.h"
+#include "../Base/GuiComponent.h"
+#include "../Base/SafeExecutorBase.h"
 
 namespace gui_component
 {

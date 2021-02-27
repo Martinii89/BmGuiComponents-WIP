@@ -1,7 +1,6 @@
 ﻿#include "pch.h"
+#include "../Base/CVarComponentBase.h"
 #include "TextInputComponent.h"
-
-#include "GuiComponents/Base/CVarComponentBase.h"
 
 
 gui_component::TextInputComponent::TextInputComponent(std::string label, std::shared_ptr<CVarComponentBase> cvar):

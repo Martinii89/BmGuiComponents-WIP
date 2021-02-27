@@ -1,6 +1,6 @@
 ﻿#pragma once
 #include "SafeExecutor.h"
-#include "GuiComponents/Factory/ComponentFactoryBase.h"
+#include "../Factory/ComponentFactoryBase.h"
 
 namespace gui_component::plugin
 {

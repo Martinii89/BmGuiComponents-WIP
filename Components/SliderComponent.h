@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "GuiComponents/Base/GuiComponent.h"
+#include "../Base/GuiComponent.h"
 
 namespace gui_component
 {

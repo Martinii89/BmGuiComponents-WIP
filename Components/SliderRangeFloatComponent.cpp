@@ -1,10 +1,8 @@
 ﻿#include "pch.h"
-#include "SliderRangeFloatComponent.h"
-
-#include <utils/parser.h>
-
-#include "GuiComponents/Base/CVarComponentBase.h"
+#include "utils/parser.h"
 #include "imgui/imgui_rangeslider.h"
+#include "../Base/CVarComponentBase.h"
+#include "SliderRangeFloatComponent.h"
 
 gui_component::SliderRangeFloatComponent::SliderRangeFloatComponent(std::string label,
                                                                     std::shared_ptr<CVarComponentBase> cvar,

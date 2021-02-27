@@ -1,9 +1,7 @@
 ﻿#include "pch.h"
+#include "../Base/CVarComponentBase.h"
 #include "ComboComponent.h"
 
-#include <utility>
-
-#include "GuiComponents/Base/CVarComponentBase.h"
 
 gui_component::ComboComponent::ComboComponent(std::string label, std::shared_ptr<CVarComponentBase> cvar):
 	GuiComponent(std::move(label)),

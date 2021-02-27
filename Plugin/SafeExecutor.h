@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "GuiComponents/Base/SafeExecutorBase.h"
+#include "../Base/SafeExecutorBase.h"
 
 namespace gui_component::plugin
 {

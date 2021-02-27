@@ -1,9 +1,7 @@
 #include "pch.h"
+#include "../Base/SafeExecutorBase.h"
 #include "CVarComponent.h"
 
-#include <utility>
-
-#include "GuiComponents/Base/SafeExecutorBase.h"
 
 gui_component::plugin::CVarComponent::CVarComponent(const std::string& cvar_name, CVarManagerWrapper* cvar_manager,
                                                     std::shared_ptr<SafeExecutorBase> safe_executor):

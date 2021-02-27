@@ -1,7 +1,7 @@
 ﻿#include "pch.h"
 #include "PasswordComponent.h"
 
-#include "GuiComponents/Base/CVarComponentBase.h"
+#include "../Base/CVarComponentBase.h"
 
 
 gui_component::PasswordComponent::PasswordComponent(std::string label, std::shared_ptr<CVarComponentBase> cvar):

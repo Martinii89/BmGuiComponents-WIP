@@ -1,7 +1,6 @@
 ﻿#include "pch.h"
+#include "../Base/CVarComponentBase.h"
 #include "SliderComponent.h"
-
-#include "GuiComponents/Base/CVarComponentBase.h"
 
 gui_component::SliderIntComponent::SliderIntComponent(std::string label, int min, int max,
                                                       std::shared_ptr<CVarComponentBase> cvar):

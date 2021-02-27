@@ -1,7 +1,6 @@
 ﻿#include "pch.h"
+#include "../Base/CVarComponentBase.h"
 #include "ColorEditComponent.h"
-
-#include "GuiComponents/Base/CVarComponentBase.h"
 
 gui_component::ColorEditComponent::ColorEditComponent(std::string label, std::shared_ptr<CVarComponentBase> cvar):
 	GuiComponent(std::move(label)),
