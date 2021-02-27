@@ -35,6 +35,6 @@ void gui_component::SliderFloatComponent::Render()
 	auto value = cvar_->GetFloatValue();
 	if (ImGui::SliderFloat(label_.c_str(), &value, min_, max_))
 	{
-		cvar_->SetIntValue(std::clamp(value, min_, max_));
+		cvar_->SetFloatValue(std::clamp(value, min_, max_));
 	}
 }
